@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Bishal",
+      "email": "bishal@gmail.com",
+      "address": {
+        "street": "baneshwor",
+        "city": "kathmandu"
+      }
+    }
+  ]
+}
