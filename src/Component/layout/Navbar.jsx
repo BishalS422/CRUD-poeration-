@@ -29,6 +29,9 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+          <Link className="btn btn-secondary " to={""}>
+            Add User
+          </Link>
         </div>
       </nav>
     </div>

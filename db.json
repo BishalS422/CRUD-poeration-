@@ -8,6 +8,15 @@
         "street": "baneshwor",
         "city": "kathmandu"
       }
+    },
+    {
+      "id": 2,
+      "name": "Arun",
+      "email": "arun@gmail.com",
+      "address": {
+        "street": "oldbaneshwor",
+        "city": "kathmandu"
+      }
     }
   ]
 }
