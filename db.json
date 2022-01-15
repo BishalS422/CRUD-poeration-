@@ -1,22 +1,18 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Bishal",
-      "email": "bishal@gmail.com",
-      "address": {
-        "street": "baneshwor",
-        "city": "kathmandu"
-      }
+      "name": "shreya shrestha",
+      "userName": "shreya1114",
+      "email": "shy@gmail.com",
+      "phone": "6565456456",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Arun",
-      "email": "arun@gmail.com",
-      "address": {
-        "street": "oldbaneshwor",
-        "city": "kathmandu"
-      }
+      "name": "Bishal",
+      "userName": "bishl21",
+      "email": "bishal@gmail.com",
+      "phone": "453533",
+      "id": 2
     }
   ]
 }

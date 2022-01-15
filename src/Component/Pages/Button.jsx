@@ -8,13 +8,17 @@ const tableStyle = css`
   }
 `;
 
-const Button = () => {
+const Button = (props) => {
+  //console.log(props.user.id);
   return (
     <div className={tableStyle}>
-      <Link class="btn btn-primary" to={""}>
+      <Link className="btn btn-primary" to={""}>
         View
       </Link>
-      <Link className="btn btn-outiline-primary" to={""}>
+      <Link
+        className="btn btn-outiline-primary"
+        to={`/editUser/${props.user.id}`}
+      >
         Edit
       </Link>
       <Link className="btn btn-danger" to={""}>

@@ -33,12 +33,12 @@ const Home = () => {
           <tbody>
             {users.map((user, index) => {
               return (
-                <tr>
+                <tr key={index}>
                   <th scope="row">{index + 1}</th>
                   <td> {user.name}</td>
                   <td> {user.email}</td>
                   <td>
-                    <Button />
+                    <Button user={user} />
                   </td>
                 </tr>
               );
