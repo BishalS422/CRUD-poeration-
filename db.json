@@ -1,18 +1,11 @@
 {
   "users": [
     {
-      "name": "shreya shrestha",
-      "userName": "shreya1114",
-      "email": "shy@gmail.com",
-      "phone": "6565456456",
+      "name": "bishal",
+      "userName": "bios212",
+      "email": "bsiah@gmail.com",
+      "phone": "54384038",
       "id": 1
-    },
-    {
-      "name": "Bishal",
-      "userName": "bishl21",
-      "email": "bishal@gmail.com",
-      "phone": "453533",
-      "id": 2
     }
   ]
 }

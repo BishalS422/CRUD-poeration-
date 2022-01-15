@@ -38,7 +38,7 @@ const Home = () => {
                   <td> {user.name}</td>
                   <td> {user.email}</td>
                   <td>
-                    <Button user={user} />
+                    <Button user={user} callFunction={() => loadUsers()} />
                   </td>
                 </tr>
               );

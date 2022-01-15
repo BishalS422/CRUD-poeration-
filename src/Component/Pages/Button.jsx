@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { css } from "@emotion/css";
+import axios from "axios";
 
 const tableStyle = css`
   .btn {
@@ -9,6 +10,11 @@ const tableStyle = css`
 `;
 
 const Button = (props) => {
+  const deleteUser = async (id) => {
+    await axios.delete(`http://localhost:5000/users/${id}`);
+
+    props.callFunction(); //calling parent component function
+  };
   //console.log(props.user.id);
   return (
     <div className={tableStyle}>
@@ -21,7 +27,13 @@ const Button = (props) => {
       >
         Edit
       </Link>
-      <Link className="btn btn-danger" to={""}>
+      <Link
+        className="btn btn-danger "
+        onClick={() => {
+          deleteUser(props.user.id);
+        }}
+        to={""}
+      >
         Delete
       </Link>
     </div>
